@@ -1,0 +1,29 @@
+{
+  "name": "com.fallingsnowinteractive.roguelite",
+  "version": "0.0.1",
+  "displayName": "FSI Roguelite",
+  "description": "Package for roguelite.\nIncludes map, combat, blacksmith, shop and inn.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Roguelite",
+    "Combat",
+    "Blacksmith",
+	"Shop",
+	"Inn"
+  ],
+  "author": {
+    "name": "Kira Dinan",
+    "email": "kiradinan.dev@gmail.com"
+  },
+  "hideInEditor": false,
+  "dependencies": {
+    "com.unity.inputsystem": "1.9.0",
+    "com.unity.cinemachine": "3.1.2",
+	"com.fallingsnowinteractive.prototyping":"1.0.1",
+	"com.fallingsnowinteractive.settings":"0.0.1",
+	"com.fallingsnowinteractive.nodemap":"0.1.0",
+	"com.fallingsnowinteractive.gameplay":"0.1.1",
+	"com.fallingsnowinteractive.currencies":"0.1.0"
+  }
+}
